@@ -95,6 +95,7 @@ class _DemoState extends State<Demo> {
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: <Widget>[
                         Text('Add to Cart'),
+                        //comsumer here to trigger actions when button pressed
                         Consumer<DemoModel>(
                             builder: (context, demoModel, child) {
                           return IconButton(
