@@ -14,6 +14,7 @@ class Items {
 }
 
 //category list
+//insert your own images/information here
 class Category {
   static List<Items> categories = <Items>[
     Items(
